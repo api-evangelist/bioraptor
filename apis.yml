@@ -1,25 +1,72 @@
 aid: bioraptor
+
 name: Bioraptor
-description: 'Bioraptor is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by crane-venture-partners) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://cdn.prod.website-files.com/650193798cbc0c9efae64e0e/68e75592552360496fb0ad7c_Hero%20-%20open%20graph.jpg
+
+description: 'BioRaptor provides a bioprocess data analytics platform that unifies online, at‑line, and offline bioprocess data into a single system. It enables rapid R&D, scale‑up optimization, and improved manufacturing outcomes through instant cross‑run analysis, automated reporting, and real‑time monitoring. The platform serves biopharma and biotech companies seeking to accelerate development and enhance production efficiency.'
+
 url: https://raw.githubusercontent.com/api-evangelist/bioraptor/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-24 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-24'
+
 modified: '2026-10-24'
+
 tags:
-- Company
-apis: []
+- Bioprocessing
+- Data Analytics
+- Biotech
+- Biopharma
+- Process Optimization
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- crane-venture-partners
+
 common:
+- type: LLMsTxt
+  url: llms/bioraptor-llms.txt
+- type: Hosts
+  url: hosts/bioraptor-hosts.yml
+- type: Vendors
+  url: vendors/bioraptor-vendors.yml
+- type: PrivacyPolicy
+  url: https://www.bioraptor.ai/privacy-policy
+- type: DomainSecurity
+  url: security/bioraptor-domain-security.yml
 - type: Website
   url: https://www.bioraptor.ai/
+
+apis: []
+
+x-backed-by:
+- crane-venture-partners
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  method: derived
+  generated: '2026-10-24'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - url: https://www.bioraptor.ai/
+    status: 200
+x-enrichment:
+  date: '2026-10-24'
+  status: enriched
+  artifacts_added: 9
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

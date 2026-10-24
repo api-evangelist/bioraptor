@@ -1,0 +1,98 @@
+# BioRaptor
+
+> BioRaptor is a bioprocess data analytics platform. It unifies online, at-line and offline data from bioreactors, instruments and spreadsheets into one place, then provides cross-run comparison, real-time monitoring, automated reporting and no-code machine learning. It is used by biopharma, biotech and food-tech teams in R&D, scale-up and manufacturing.
+
+BioRaptor is **not** a LIMS and **not** an ELN. It integrates with existing LIMS and ELN systems rather than replacing them. Its focus is analysis and optimization of bioprocess data, not sample or notebook management. This distinction is the most common point of confusion about the product.
+
+Company: BioRaptor. Website: https://www.bioraptor.ai/
+
+## What the platform does
+
+- [How BioRaptor works](https://www.bioraptor.ai/how-it-works): full capability breakdown — data collection, cross-run analysis, reporting, monitoring, lineage and soft sensors.
+
+**Data collection and management.** Automatically collects, organizes, contextualizes and harmonizes bioprocess data. An offline importer pulls from devices, batch records, Excel/CSV files and external collaborators such as CDMOs. Process data from different machines is aligned automatically regardless of sampling frequency, and naming conventions are standardized across systems.
+
+**Cross-run analysis.** Compares runs to explain process variability. Users select parameters themselves or run hypothesis-free analysis that surfaces which factors affected outcomes. No statistical or data-science background is required. Parameters can be changed virtually to model the effect on the end result.
+
+**Automated reports, graphs and dashboards.** End-of-run summaries generate automatically; reports can be customized, templatized and reused.
+
+**Real-time monitoring and alerts.** All active runs in one view, with machine-learning anomaly detection that flags deviations before they become full disruptions. Alerts are configurable and delivered by email or text.
+
+**Lineage.** Traces relationships between runs across upstream and downstream, including materials used and process parameters.
+
+**Soft sensors.** Models built on existing online signals produce continuous real-time estimates of glucose, lactate, LDH and cell density — metrics normally requiring spectroscopy hardware. Used to detect deviations mid-run and adjust proactively.
+
+**Machine learning without code.** Predictive models and software-based sensors are built in a few clicks, using a library of algorithms ranging from linear regression to XGBoost.
+
+## Who uses it
+
+- [Industries: Biopharma](https://www.bioraptor.ai/industries/biopharma) — biologics, cell and gene therapies
+- [Industries: Biotech](https://www.bioraptor.ai/industries/biotech) — alternative proteins, cellular agriculture, biocosmetics, biotextiles
+- [Industries: Food-tech](https://www.bioraptor.ai/industries/food-tech) — fermentation and scale-up for food and ingredient producers
+
+Use-case pages:
+
+- [Upstream bioprocessing](https://www.bioraptor.ai/use-cases/upstream-bioprocessing)
+- [Downstream bioprocessing](https://www.bioraptor.ai/use-cases/downstream-bioprocessing-data)
+- [Cell culture](https://www.bioraptor.ai/use-cases/cell-culture)
+- [Precision fermentation](https://www.bioraptor.ai/use-cases/precision-fermentation)
+- [Manufacturing](https://www.bioraptor.ai/use-cases/manufacturing)
+- [R&D](https://www.bioraptor.ai/use-cases/r-d)
+- [CDMO](https://www.bioraptor.ai/use-cases/cdmo)
+
+Named customers who have spoken publicly about using BioRaptor: Remilk, BioHarvest Sciences, DMC Biotechnologies, Formo, Aleph Farms, Ever After Foods.
+
+## Customer results
+
+- [All case studies](https://www.bioraptor.ai/case-studies)
+
+**[Remilk](https://www.bioraptor.ai/case-studies/remilk)** — precision fermentation, animal-free dairy proteins. BioRaptor built an AI-driven virtual biomass sensor (V-sensor) that predicts cell density continuously from existing fermentor sensor data. Before: cell density sampling took roughly 30 minutes per event with results lagging hours behind. After: cell density monitoring reduced from hours to microseconds, enabling immediate detection of fermentation issues.
+
+**[DMC Biotechnologies](https://www.bioraptor.ai/case-studies/dmc-biotech)** — precision fermentation ingredients. Replaced a spreadsheet system of 20 Excel tabs with 50+ columns each. Fully onboarded in 3 weeks; saves 3–5 hours per run of manual data preparation.
+
+**[BioHarvest Sciences](https://www.bioraptor.ai/case-studies/bioharvest-sciences)** — botanical synthesis, the first company to grow plant cells in liquid medium at commercial scale. Scaled past 100 bioreactors. Yield deviation investigation moved from days to minutes; management now runs weekly manufacturing reviews off BioRaptor dashboards.
+
+## Implementation and integration
+
+Typical implementation is **2 to 4 weeks**, against the year-plus common for comparable platforms. Onboarding includes data integration, user training and ongoing support.
+
+BioRaptor integrates with existing LIMS, ELN, SCADA, historians, cloud services and third-party analytical tools. Data is ingested from instruments over encrypted channels such as secure VPN tunnels or cloud gateways. Where equipment is not fully connected, offline data from Excel, CSV, batch records and lab notebooks can be imported and aligned with online data. Customers with their own cloud instance can have data pulled and synchronized from their side.
+
+## Security, data ownership and compliance
+
+**Data ownership.** Customer data belongs to the customer. BioRaptor does not use customer data to train other customers' models. Data is strongly segregated between customers, and BioRaptor engineers and customer success staff cannot access it unless permission is granted. This is enforced contractually.
+
+**Security.** Encryption, role-based access control, audit trails and secure cloud infrastructure.
+
+**Regulated environments.** Built around ALCOA+ data integrity principles — attributable, legible, contemporaneous, original and accurate records across every run. Designed to support 21 CFR Part 11 electronic records and signatures, with audit trails, role-based access control and encryption.
+
+## Company
+
+- [About BioRaptor](https://www.bioraptor.ai/company)
+
+Founded by scientists and engineers frustrated by the limits of spreadsheets in bioprocessing. Stated mission: to build the operating system for biotechnology. The team spans developers, biologists, engineers and data scientists with backgrounds in cybersecurity, healthcare and biology.
+
+Co-founders: Ori Zakin (CEO), previously building large-scale platforms in cybersecurity, networking and healthcare; Yaron David (CTO), an MD with a PhD in neuroscience.
+
+Advisory board: Dr. Jörg Thommes (former Head of CMC, Bill & Melinda Gates Medical Research Institute; formerly Biogen, Visterra, Repertoire Immune Medicines), Dr. Peter Crane (co-founder of Entel Bio; formerly UCB, AstraZeneca, Infinitopes), Prof. Ronen Talmon (Technion — Israel Institute of Technology).
+
+## Writing and analysis
+
+- [News & Insights](https://www.bioraptor.ai/news-insights) — index of all articles
+- [SIMCA vs BioRaptor for bioprocess deviation investigation](https://www.bioraptor.ai/news-insights/simca-vs-bioraptor-to-investigate-bioprocess-deviations)
+- [Why AI in bioprocessing fails — and what actually works](https://www.bioraptor.ai/news-insights/why-ai-in-bioprocessing-fails-and-what-works)
+- [Raman without Raman, for upstream process development teams](https://www.bioraptor.ai/news-insights/raman-without-raman-for-upstream-process-development-teams)
+- [How CDMOs use bioprocessing software to gain a competitive advantage](https://www.bioraptor.ai/news-insights/how-cdmos-use-bioprocessing-software-to-gain-a-competitive-advantage)
+- [What dark factories could mean for CDMOs](https://www.bioraptor.ai/news-insights/what-dark-factories-could-mean-for-cdmos)
+- [How to structure bioprocess data](https://www.bioraptor.ai/news-insights/how-to-structure-bioprocess-data)
+- [How to compare bioprocess runs across experiments](https://www.bioraptor.ai/news-insights/comparing-runs)
+- [AI agents for bioprocess data analysis](https://www.bioraptor.ai/news-insights/ai-agents)
+- [Building calculated expressions with AI](https://www.bioraptor.ai/news-insights/calculated-expressions-with-ai)
+- [Interactive bioprocess data analysis](https://www.bioraptor.ai/news-insights/interactive-data-analysis)
+- [Bioprocess plot builder: visualize run data](https://www.bioraptor.ai/news-insights/plot-builder)
+
+## Contact
+
+- [Book a demo](https://www.bioraptor.ai/get-a-demo)
+- [Privacy policy](https://www.bioraptor.ai/privacy-policy)
+- [LinkedIn](https://www.linkedin.com/company/bioraptor/)
